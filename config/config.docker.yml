@@ -1,0 +1,9 @@
+database:
+  user: root
+  password: root
+  net: tcp
+  addr: database:3306
+  dbname: golang_trainning
+  allowNativePasswords: true
+  params:
+    parseTime: "true"
