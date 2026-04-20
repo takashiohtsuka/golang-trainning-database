@@ -14,9 +14,9 @@ func main() {
 	}
 	defer db.Close()
 
-	_, err = db.Exec("CREATE DATABASE IF NOT EXISTS golang_clean_architecture_test CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_as_ci")
+	_, err = db.Exec("CREATE DATABASE IF NOT EXISTS golang_trainning_test CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_as_ci")
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Println("golang_clean_architecture_test created successfully")
+	log.Println("golang_trainning_test created successfully")
 }
